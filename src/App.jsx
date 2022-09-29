@@ -8,8 +8,8 @@ import './App.css'
 
 function App() {
 
-  const [notes, setNotes] = React.useState([])
-  const [currentNoteId, setCurrentNoteId] = React.useState(
+  const [notes, setNotes] = useState([])
+  const [currentNoteId, setCurrentNoteId] = useState(
       (notes[0] && notes[0].id) || ""
   )
   
